@@ -1,0 +1,238 @@
+.grid{
+	height: 480px;
+	background-color: #f1f3f0;
+	margin-top: 20px;
+}
+.grid-col1{
+	width: 190px;
+	height: 100%;
+	color: #fff;
+	background-color: #6e6568;
+	font-size: 14px; /*这个不是给字的 是给反斜杠的*/
+	position: relative;
+}
+.grid-col1 ul a{
+	color: #fff;
+	font-size: 14px; /*这个是给字的*/
+	margin: 0 3px;
+}
+.grid-col1 ul a:hover{
+	color: #f1170b;
+}
+.grid-col1 ul{
+	padding: 15px 0;
+}
+.grid-col1 ul li{
+	padding-left: 12px;
+	height: 28px;
+	line-height: 28px;
+}
+.grid-col1 ul li:hover{
+	background-color: #cccccc96;
+}
+
+.grid-col2{
+	width: 790px;
+	height: 100%;
+	margin-left: 10px;
+}
+.grid-col2 .grid-col2-b div{
+	float: left;
+	margin-top: 10px;
+}
+.grid-col2 .grid-col2-b div:last-child{
+	float: right;
+}
+/*箭头部分*/
+.grid-col2-t{
+	position: relative;
+}
+.arrow-l,
+.arrow-r{
+	width: 30px;
+	height: 60px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	text-align: center;
+	line-height: 60px;
+	color: rgba(255,255,255,0.5);
+	font-size: 28px;
+	font-weight: normal;
+}
+.arrow-l{
+	left: 0;
+}
+.arrow-r{
+	right: 0;
+}
+/*链接小圆点*/
+.circle{
+	width: 171px;
+	height: 20px;
+	background: rgba(0,0,0,0.2);
+	border-radius: 10px 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -87px;
+	padding-left: 4px;
+}
+.circle li{
+	height: 12px;
+	width: 12px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 50%;
+	float: left;
+	margin: 3px 8px;
+	cursor: pointer;
+}
+.circle .current{
+	background-color: red;
+} 
+.circle li:hover{
+	background-color: red;
+}
+
+.grid-col3{
+	width: 190px;
+	height: 100%;
+	background-color: #fff;
+}
+/*登录模块*/
+.login{
+	height: 115px;
+	border-bottom: 1px solid #ccc;
+}
+.login-t{
+	width: 150px;
+	height: 30px;
+	padding-top: 55px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color: #878a7f;
+	position: relative;
+}
+.login-t img{
+	position: absolute;
+	top: 2px;
+	left: 50%;
+	margin-left: -25px;
+	border-radius: 50%;
+}
+.login-t a{
+	color: #666668;
+	font-size: 14px;
+}
+.login-t a:hover{
+	color: red;
+}
+.login-b{
+	text-align: center;
+	margin-top: 8px;
+}
+.login-b a{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 25px;
+}
+.login-b a:nth-child(1){
+	background-color: #d4d8dc;
+	color: red;
+}
+.login-b a:nth-child(2){
+	background-color: #30362a;
+	color: #dcd891;
+}
+
+/*新闻模块*/
+.news{
+	height: 154px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 13px 0;
+	box-sizing: border-box;
+}
+.news-t{
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.news-t div{
+	width: 29px;
+	height: 2px;
+	background-color: red;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.news-t a{
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+}
+.news-t a:hover{
+	color: #f1170b;
+}
+.news-t .cuxiao{
+	/*display: inline-block;*/
+	border-right: 1px solid #ccc;
+	width: 38px;
+	padding-right: 12px;	
+}
+.news-t .gg{
+	margin-left: 15px;
+}
+.news-t .more{
+	float: right;
+}
+.news .news-b{
+	margin-top: 10px;
+	line-height: 20px;
+}
+.news .news-b a{
+	font-size: 12px;
+	font-weight: normal;
+	color: #646d68;
+}
+.news .news-b a:hover{
+	color: #f1170b;
+}
+
+/*服务扩展模块*/
+.expand{
+	height: 209px;
+	overflow: hidden;
+}
+.expand ul{
+	width: 195px;
+}
+.expand li{
+	width: 47px;
+	height: 69px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+	float: left;
+}
+.expand li a{
+	display: block;
+	line-height: 69px;
+	text-align: center;
+}
+.expand li:hover{
+	background-color: #ff5722;
+}
+.expand li:hover a{
+	color: #fff;
+}
+/*.expand li:nth-child(4n){
+	border-right: none;
+}*/
