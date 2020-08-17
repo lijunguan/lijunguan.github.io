@@ -1,0 +1,329 @@
+.top {
+    background-color: #fff;
+    height: 100px;
+}
+.top_l {
+    margin-left: 342px;
+    margin-top: 20px;
+    width: 370px;
+    float: left;
+}
+.top_l a {
+    float: left;
+    display: block;
+    height: 60px;
+    width: 170px;
+    background-image: url(../images/ico.png);
+    background-position: 0px 0px;
+    margin-bottom: 15px;
+}
+.top_l h3 {
+    float: right;
+    margin-right: 105px;
+    color: #686868;
+}
+
+.top_r {
+    float: right;
+    width: 127px;
+    /* height: 20px; */
+    margin-right: 140px;
+    margin-top: 70px;
+}
+.top_r i{
+    float: left;
+    color: #e62b36;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+}
+.top_r p {
+    float: right;
+    margin-bottom: 15px;
+}
+
+/* 中间部分 */
+.body {
+    height: 592px;
+    background: #e93854 url(../images/background.png) no-repeat center;
+    background-size: auto 100%;
+    position: relative;
+    
+}
+.body .login{
+    width: 433px;
+    height: 536px;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    background-color: #fff;
+}
+.login_top{
+    height: 50px;
+    background-color: #fff7f2;
+    position: relative;
+}
+.login_top i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon-tips.png) no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.login_top p {
+    color: #97928c;
+    text-align: center;
+    line-height: 50px;
+}
+.login_body{
+    height: 426px;
+}
+.login_body_top {
+    height: 65px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.login_body_top li a:hover{
+    background-color: #f10;
+    color: #fff;
+}
+.login_body_top li {
+    cursor: pointer;
+    display: inline-block;
+    width: 48%;
+    line-height: 65px;
+    text-align: center;
+    
+}
+.login_body_top li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: #818181;
+}
+.login_body_top li span {
+    float: left;
+    margin-left: 10px;
+}
+
+/* 账号登录块默认隐藏 */
+.login_body_account{
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    transform: translate(-50%, -50%); 
+    display: none;
+}
+
+.ati{
+    display: none; 
+}
+.appear{
+    display: block;
+}
+
+.bogin_body_b div{
+    
+    width: 210px;
+    height: 210px;
+    margin: 25px auto;
+}
+.bogin_body_b p {
+    text-align: center;
+    font-size: 18px;
+}
+.bogin_body_b p span a{
+    color: #c65163;
+    font-size: 18px;
+}
+
+/* 账号登录模块 */
+.login_body{
+    position: relative;
+}
+.login_body_account .Login_interface_t{
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+.login_body_account .Login_interface_t i{
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 42px;
+    height: 36px;
+    background: url(../images/yh.png) no-repeat;
+    background-position: -3px -8px;
+}
+.login_body_account .Login_interface_w i{
+    display: block;
+    width: 42px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 36px;
+    background: url(../images/mima.jpg) no-repeat;
+    background-position: -3px -6px;
+}
+.login_body_account .Login_interface_w{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+.login_body_account .Login_interface_t input{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #666;
+    padding: 5px 50px 0;
+    box-sizing: border-box;
+}
+.login_body_account .Login_interface_w input{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #666;
+    padding: 5px 50px 0;
+    box-sizing: border-box;
+}
+.Login_interface p{
+    text-align: right;
+    padding: 10px 65px;
+}
+.login_body_account .btn{
+    text-align: center;
+}
+.login_body_account .btn input{
+    width: 304px;
+    height: 36px;
+    background-color: #f10;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.bogin_body_b ul{
+    text-align:  center;
+    margin-top: 25px;
+}
+.bogin_body_b ul li{
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    text-align:  center;
+    position: relative;
+    line-height: 35px;
+}
+.bogin_body_b ul li:nth-child(1) i{
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    display: block;
+    width: 29px;
+    height: 29px;
+    background: url(../images/qr-coagent.png) no-repeat;
+    background-position: 4px 4px;
+}
+.bogin_body_b ul li:nth-child(2) i{
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: url(../images/qr-coagent.png) no-repeat;
+    background-position: -25px 0px;
+}
+.bogin_body_b ul li:nth-child(3) i{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/qr-coagent.png) no-repeat;
+    background-position: -53px 5px;
+}
+
+.login_foot {
+    height: 60px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f4f4f4;
+}
+.login_foot .login_foot_Sign{
+    float: left;
+}
+.login_foot ul li {
+    display: inline-block;
+    width: 100px;
+    line-height: 60px;
+    text-align: right;
+    position: relative;
+}
+.login_foot ul li span{
+    position: absolute;
+    right: -25px;
+}
+.login_foot ul li:nth-child(1) i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/QQ-weixin.png) no-repeat;
+    background-position: 0px 0px;
+    position: absolute;
+    top: 21px;
+    left: 40px;
+}
+.login_foot ul li:nth-child(2) i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/QQ-weixin.png) no-repeat;
+    background-position: -19px 0px;
+    position: absolute;
+    top: 21px;
+    left: 40px;
+}
+.login_foot .register{
+    float: right;
+    position: relative;
+}
+.login_foot .register p a{
+    margin-right: 20px;
+    line-height: 60px;
+    font-size: 24px;
+    color: #e93b32;
+}
+.login_foot .register p a i{
+    position: absolute;
+    top: 23px;
+    left: -25px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/pwd-icons-new.png) no-repeat;
+    background-position: -104px -75px;
+}
+
+
+/* 尾部 */
+.foot {
+    height: 180px;
+    color: #727272;
+}
+.foot .Links {
+    height: 50px;
+    text-align: center;
+}
+.foot ul li {
+    display: inline-block;
+    line-height: 50px;
+    
+}
+.foot ul li span {
+    margin: 0 10px;
+}
