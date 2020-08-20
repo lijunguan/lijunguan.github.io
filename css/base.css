@@ -29,6 +29,7 @@ body{
 }
 ul,
 h1,
+h3,
 h5,
 p,
 dd,
@@ -48,14 +49,16 @@ ul{
 /*header部分*/
 @font-face {	/*声明字体*/
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?5qrmrq');
-  src:  url('../fonts/icomoon.eot?5qrmrq#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?5qrmrq') format('truetype'),
-    url('../fonts/icomoon.woff?5qrmrq') format('woff'),
-    url('../fonts/icomoon.svg?5qrmrq#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+/* ?5qrmrq ?5qrmrq#iefix ?5qrmrq ?5qrmrq ?5qrmrq#icomoon */
 
 header{
 	height: 80px;

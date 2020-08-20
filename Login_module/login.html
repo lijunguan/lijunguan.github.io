@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登录</title>
-    <link rel="stylesheet" href="../css/login.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>登录页面</title>
+    <link type="text/css" rel="stylesheet" href="../font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/login.js"></script>
 </head>
+
 <body>
     <!-- 头部 -->
     <div class="top">
@@ -21,7 +22,7 @@
         </div>
         <div class="top_r">
             <div>
-                <a href="javascript: void(0)">
+                <a href="#">
                     <i class="fa fa-commenting-o"></i>
                     <p>登录页面，调查问卷</p>
                 </a>
@@ -55,26 +56,32 @@
                 </div>
                 <div class="login_body_account">
                     <div class="Login_interface">
-                        <div class="Login_interface_t"><i></i><input type="text" class="account" placeholder="邮箱/用户名/登录手机"></div>
-                        <div class="Login_interface_w"><i></i><input type="text" class="password" placeholder="密码"></div>
+                        <div class="Login_interface_t"><i></i><input type="text" class="account"
+                                placeholder="邮箱/用户名/登录手机"></div>
+                        <div class="Login_interface_w"><i></i><input type="password" class="password" placeholder="密码">
+                        </div>
                         <p><a>忘记密码</a></p>
                     </div>
                     <div class="btn">
                         <input type="button" value="登录">
                     </div>
                 </div>
-                
+
             </div>
             <div class="login_foot">
                 <div class="login_foot_Sign">
                     <ul>
-                        <li><i></i><p>QQ<span>|</span></p></li>
-                        
-                        <li><i></i><p>微信</p></li>
+                        <li><i></i>
+                            <p>QQ<span>|</span></p>
+                        </li>
+
+                        <li><i></i>
+                            <p>微信</p>
+                        </li>
                     </ul>
                 </div>
                 <div class="register">
-                    <p><a href="javascript void(0)"><i></i>立即注册</a></p>
+                    <p><a href="./register.html"><i></i>立即注册</a></p>
                 </div>
             </div>
         </div>
@@ -103,4 +110,5 @@
         </div>
     </div>
 </body>
+
 </html>

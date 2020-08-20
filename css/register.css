@@ -1,0 +1,206 @@
+body{
+  background-color: #fff;
+  /* z-index: 999; */
+}
+
+
+/* 头部 */
+.top {
+    background-color: #fff;
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ededed;
+}
+.top_l {
+    margin-left: 145px;
+    margin-top: 20px;
+    width: 370px;
+    float: left;
+}
+.top_l a {
+    float: left;
+    display: block;
+    height: 60px;
+    width: 170px;
+    background-image: url(../images/logo_login.png);
+    background-size: contin;
+    margin-bottom: 15px;
+}
+.top_l h3 {
+    float: right;
+    margin-right: 105px;
+    color: #686868;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.top_r {
+    float: right;
+    width: 145px;
+    /* height: 20px; */
+    margin-right: 140px;
+    margin-top: 50px;
+}
+.top_r p {
+    float: left;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #999;
+}
+.top_r a {
+    float: right;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #e22
+}
+
+/* 内容区 */
+.body{
+  height: 500px;
+  width: 100%;
+  background: url(../images/beijing1.png) no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+.body .body_register{
+  border-radius: 15px;
+  box-shadow: 0 2px 15px 0;
+  background-color: #fff;
+  width: 320px;
+  height: 420px;
+  margin-left: 1000px;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+}
+.body .body_register .body_b{
+  position: relative;
+}
+.body .body_register h3{
+  font-size:  16px;
+  color: #333;
+  text-align:  left;
+  padding-left: 14px;
+}
+.body .body_register .body_b .phone input{
+  width: 260px;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding-left: 50px;
+}
+.body .body_register .body_b .phone i{
+  display: block;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  background: url(../images/app.png) no-repeat;
+  /* background-color: #f10; */
+  background-position: 0 -73px;
+}
+.body .body_register .body_b .password i{
+  display: block;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: 73px;
+  left: 25px;
+  background: url(../images/app.png) no-repeat;
+  background-position: 0 -38px;
+}
+.body .body_register .body_b .password input{
+  width: 260px;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding-left: 50px;
+}
+.body_register .body_b .Button .btn{
+  padding: 0;
+}
+.body .body_register .body_b .Code{
+  width: 260px;
+  height: 40px;
+  text-align: center;
+}
+.body .body_register .body_b .Code input{
+  width: 170px;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 5px;
+}
+.body .body_register .body_b .Code span{
+  display: block;
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid  rgb(44, 181, 235);
+  float: right;
+  color: rgb(44, 181, 235);
+  margin: 10px -16px 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.body .body_register .body_b .Button .btn{
+  width: 260px;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+
+.agreement{
+  margin-top: 15px;
+}
+.agreement_top{
+  float: left;
+}
+.agreement_b{
+  float: right;
+  margin-top: 15px;
+}
+.agreement_b a{
+  font-size: 16px;
+  color: rgb(44, 181, 235);
+}
+
+
+/* 尾部 */
+.foot {
+    height: 120px;
+    color: #727272;
+    background-color: #fff;
+    font-size: 13px;
+}
+.foot .Links {
+    height: 50px;
+    position: relative;
+}
+.foot ul{
+    position: absolute;
+    left: 50%;
+    margin-left: -444.2px;
+
+    
+}
+.foot ul li {
+    display: inline-block;
+    line-height: 50px;
+    
+}
+.foot ul li span {
+    margin: 0 10px;
+}

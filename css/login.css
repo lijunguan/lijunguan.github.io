@@ -3,7 +3,7 @@
     height: 100px;
 }
 .top_l {
-    margin-left: 342px;
+    margin-left: 145px;
     margin-top: 20px;
     width: 370px;
     float: left;
@@ -13,14 +13,16 @@
     display: block;
     height: 60px;
     width: 170px;
-    background-image: url(../images/ico.png);
-    background-position: 0px 0px;
+    background-image: url(../images/logo_login.png);
+    background-size: contin;
     margin-bottom: 15px;
 }
 .top_l h3 {
     float: right;
     margin-right: 105px;
     color: #686868;
+    line-height: 60px;
+    font-size: 20px;
 }
 
 .top_r {
@@ -314,6 +316,7 @@
 .foot {
     height: 180px;
     color: #727272;
+    font-size: 13px;
 }
 .foot .Links {
     height: 50px;

@@ -54,7 +54,7 @@ $(function(){
 		if (indexs >= len) {
 			indexs = 0;
 		}
-		console.log("indexs3:"+indexs)
+		// console.log("indexs3:"+indexs)
 		$(".circle li").eq(indexs).addClass("current").siblings().removeClass("current");//改变小圆点背景颜色
 		$(".circle li").eq(indexs).parent().siblings().children().attr({src: "images/" + arr[indexs]});//改变图片地址
 		
